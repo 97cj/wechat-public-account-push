@@ -8,43 +8,43 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: "wxd4648f3584e71105",
+  APP_ID: 'wxd4648f3584e71105',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: "4acee7813b31a43c033ab6e3d30527b8",
+  APP_SECRET: '4acee7813b31a43c033ab6e3d30527b8',
 
-  PROVINCE: "内蒙古",
-  CITY: "包头",
+  PROVINCE: '内蒙古',
+  CITY: '包头',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小乖乖",
+      name: '小乖乖',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o0XKh6qwgRc6YNJCUNDGC3Un6baw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: "sEEEhlMfQU6JfRbWXZcpXNyz0hC__fE_e-FzEVbLUDs",
+      useTemplateId: 'sEEEhlMfQU6JfRbWXZcpXNyz0hC__fE_e-FzEVbLUDs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: "01-31",
+      horoscopeDate: '01-31',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: "*生日", name: "小乖乖", year: "1997", date: "12-23",
+          type: '*生日', name: '小乖乖', year: '1997', date: '12-23',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: "生日", name: "小崔", year: "1996", date: "06-07",
+          type: '生日', name: '小崔', year: '1996', date: '06-07',
         },
         {
-          type: "节日", name: "相识纪念日", year: "2023", date: "02-01",
+          type: '节日', name: '相识纪念日', year: '2023', date: '02-01',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: "love_day", date: "2023-02-01" },
+        { keyword: 'love_day', date: '2023-02-01' },
         // 喜欢乖乖纪念日
-        { keyword: "marry_day", date: "2023-02-01" },
+        { keyword: 'marry_day', date: '2023-02-01' },
       ],
     },
   ],
@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: "自己",
+      name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
     }
